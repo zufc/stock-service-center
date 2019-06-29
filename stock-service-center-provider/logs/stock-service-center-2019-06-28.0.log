@@ -1,0 +1,21 @@
+2019-06-28 09:36:49.095 INFO   [,]  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$265d45a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 09:36:50.342 INFO   [,]  [main] c.z.s.StockServiceCenterProviderApplicationTests: - The following profiles are active: dev
+2019-06-28 09:36:51.579 WARN   [,]  [main] o.s.boot.actuate.endpoint.EndpointId: - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-06-28 09:36:52.102 INFO   [,]  [main] o.s.cloud.context.scope.GenericScope: - BeanFactory id=eba05677-9759-3352-9360-d953a271d771
+2019-06-28 09:36:52.464 INFO   [,]  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4342a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 09:36:52.569 INFO   [,]  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$265d45a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-28 09:36:54.338 INFO   [,]  [main] com.zaxxer.hikari.HikariDataSource: - HikariPool-1 - Starting...
+2019-06-28 09:36:54.626 INFO   [,]  [main] com.zaxxer.hikari.HikariDataSource: - HikariPool-1 - Start completed.
+2019-06-28 09:36:54.832 WARN   [,]  [main] c.b.m.core.toolkit.TableInfoHelper: - Warn: Could not find @TableId in Class: com.zfc.study.domain.entity.Test.
+2019-06-28 09:36:55.453 WARN   [,]  [main] c.n.c.sources.URLConfigurationSource: - No URLs will be polled as dynamic configuration sources.
+2019-06-28 09:36:55.454 INFO   [,]  [main] c.n.c.sources.URLConfigurationSource: - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-28 09:36:55.467 WARN   [,]  [main] c.n.c.sources.URLConfigurationSource: - No URLs will be polled as dynamic configuration sources.
+2019-06-28 09:36:55.468 INFO   [,]  [main] c.n.c.sources.URLConfigurationSource: - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-28 09:36:56.535 INFO   [,]  [main] o.s.s.c.ThreadPoolTaskExecutor: - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-28 09:37:03.825 INFO   [,]  [main] o.s.b.a.e.web.EndpointLinksResolver: - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-28 09:37:03.935 INFO   [,]  [main] c.z.s.StockServiceCenterProviderApplicationTests: - Started StockServiceCenterProviderApplicationTests in 16.663 seconds (JVM running for 17.633)
+2019-06-28 09:37:04.284 INFO   [,]  [Thread-6] o.s.c.n.eureka.InstanceInfoFactory: - Setting initial instance status as: STARTING
+2019-06-28 09:37:04.289 INFO   [,]  [Thread-6] o.s.c.n.e.s.EurekaServiceRegistry: - Unregistering application STOCK-SERVICE-CENTER with eureka with status DOWN
+2019-06-28 09:37:04.305 INFO   [,]  [Thread-6] o.s.s.c.ThreadPoolTaskExecutor: - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-28 09:37:04.314 INFO   [,]  [Thread-6] com.zaxxer.hikari.HikariDataSource: - HikariPool-1 - Shutdown initiated...
+2019-06-28 09:37:04.327 INFO   [,]  [Thread-6] com.zaxxer.hikari.HikariDataSource: - HikariPool-1 - Shutdown completed.

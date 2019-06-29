@@ -1,0 +1,24 @@
+2019-06-29 10:59:59.742 INFO   [,]  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$611334] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-29 11:00:02.314 INFO   [,]  [main] c.z.s.StockServiceCenterProviderApplicationTests: - The following profiles are active: dev
+2019-06-29 11:00:04.440 WARN   [,]  [main] o.s.boot.actuate.endpoint.EndpointId: - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-06-29 11:00:05.208 INFO   [,]  [main] o.s.cloud.context.scope.GenericScope: - BeanFactory id=17df41da-1235-3007-a838-5c4dd2d65ee0
+2019-06-29 11:00:05.875 INFO   [,]  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e4471037] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-29 11:00:06.241 INFO   [,]  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$611334] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-29 11:00:08.557 INFO   [,]  [main] com.zaxxer.hikari.HikariDataSource: - HikariPool-1 - Starting...
+2019-06-29 11:00:08.856 INFO   [,]  [main] com.zaxxer.hikari.HikariDataSource: - HikariPool-1 - Start completed.
+2019-06-29 11:00:09.061 WARN   [,]  [main] c.b.m.core.toolkit.TableInfoHelper: - Warn: Could not find @TableId in Class: com.zfc.study.domain.entity.Test.
+2019-06-29 11:00:09.498 INFO   [,]  [main] com.zfc.study.util.SpringBeanUtil: - ========ApplicationContext配置成功,在普通类可以通过调用SpringBeanUtil.getAppContext()获取applicationContext对象,applicationContext=org.springframework.web.context.support.GenericWebApplicationContext@132ddbab, started on Sat Jun 29 11:00:02 CST 2019, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@48793bef========
+2019-06-29 11:00:14.685 INFO   [,]  [main] c.z.s.m.r.consumer.RocketMQConsumer: - consumer is start !!! groupName:demoProducerGroup,topic:topic2019,namesrvAddr:192.168.2.167:9876
+2019-06-29 11:00:16.258 INFO   [,]  [main] c.z.s.m.r.producer.RocketMQProducer: - rocketMQ is start !!groupName :demoProducerGroup,nameserAddr:192.168.2.167:9876
+2019-06-29 11:00:16.765 WARN   [,]  [main] c.n.c.sources.URLConfigurationSource: - No URLs will be polled as dynamic configuration sources.
+2019-06-29 11:00:16.766 INFO   [,]  [main] c.n.c.sources.URLConfigurationSource: - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-29 11:00:16.777 WARN   [,]  [main] c.n.c.sources.URLConfigurationSource: - No URLs will be polled as dynamic configuration sources.
+2019-06-29 11:00:16.778 INFO   [,]  [main] c.n.c.sources.URLConfigurationSource: - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-29 11:00:17.864 INFO   [,]  [main] o.s.s.c.ThreadPoolTaskExecutor: - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-29 11:00:26.460 INFO   [,]  [main] o.s.b.a.e.web.EndpointLinksResolver: - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-29 11:00:26.581 INFO   [,]  [main] c.z.s.StockServiceCenterProviderApplicationTests: - Started StockServiceCenterProviderApplicationTests in 29.722 seconds (JVM running for 32.454)
+2019-06-29 11:00:27.001 INFO   [,]  [Thread-9] o.s.c.n.eureka.InstanceInfoFactory: - Setting initial instance status as: STARTING
+2019-06-29 11:00:27.008 INFO   [,]  [Thread-9] o.s.c.n.e.s.EurekaServiceRegistry: - Unregistering application STOCK-SERVICE-CENTER with eureka with status DOWN
+2019-06-29 11:00:27.016 INFO   [,]  [Thread-9] o.s.s.c.ThreadPoolTaskExecutor: - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-29 11:00:27.073 INFO   [,]  [Thread-9] com.zaxxer.hikari.HikariDataSource: - HikariPool-1 - Shutdown initiated...
+2019-06-29 11:00:27.094 INFO   [,]  [Thread-9] com.zaxxer.hikari.HikariDataSource: - HikariPool-1 - Shutdown completed.

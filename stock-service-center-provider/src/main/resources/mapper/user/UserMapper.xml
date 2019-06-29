@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zfc.study.mapper.UserMapper">
+
+    <insert id="insertList">
+      insert into user
+      (
+        id,
+        user_id,
+        user_name,
+        password,
+        age
+      )values
+      <foreach collection="list" item="item" index="index" separator=",">
+      (
+        #{item.id},
+        #{item.userId},
+        #{item.userName},
+        #{item.password},
+        #{item.age}
+      )
+      </foreach>
+
+    </insert>
+
+
+
+
+    <select id="queryList" resultType="com.zfc.study.domain.entity.User">
+
+        select * from user
+
+    </select>
+
+</mapper>
